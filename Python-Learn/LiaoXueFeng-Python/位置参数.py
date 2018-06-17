@@ -8,3 +8,4 @@ def power(x, n=2):
 
 print(power(5))
 print(power(5,3))
+
