@@ -40,3 +40,19 @@
 # nums=[1,2,3]
 # print(calc(*nums))
 ################################
+# def person(name, age, **kw):
+#     print('name:', name, 'age:', age, 'other:', kw)
+
+
+# person('Michael', 30)
+
+# person('Bob',35,city='Beijing')
+
+def person(name,age,**kw):
+    if 'city' in kw:
+        pass
+    if 'job' in kw:
+        pass
+    print('name:',name,'age:',age,'other:',kw)
+
+person('Jack',24,zipcode=1243123)
